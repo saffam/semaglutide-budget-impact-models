@@ -18,6 +18,20 @@ The project applies Health Economics and Outcomes Research (HEOR) methods to eva
 
 All analyses use publicly available datasets and published evidence. Every calculation is designed to be traceable and reproducible.
 
+# Key Results
+
+## United Kingdom
+
+The UK model estimates the financial impact of introducing semaglutide among eligible adults with obesity.
+
+## United States
+
+The US model estimates a substantially larger gross budget impact due to higher drug acquisition costs and population size.
+
+## Cross-country comparison
+
+The project compares how healthcare system structure, obesity prevalence, treatment eligibility and drug pricing influence budget impact.
+
 ---
 
 # Research Question
@@ -65,6 +79,17 @@ Each country model follows a similar framework:
 ---
 
 # Current Results
+---
+
+# Visualisations
+
+## Eligible Treatment Population Comparison
+
+![Eligible Population Comparison](reports/comparison/eligible_population_comparison.png)
+
+## Five-Year Budget Impact Comparison
+
+![Budget Impact Comparison](reports/comparison/budget_impact_comparison.png)
 
 ## 🇬🇧 United Kingdom
 
