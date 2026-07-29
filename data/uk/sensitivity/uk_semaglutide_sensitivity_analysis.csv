@@ -1,0 +1,4 @@
+scenario,annual_cost_per_patient_gbp,eligibility_rate,eligible_patients,year5_treated_patients,year5_budget_impact_gbp
+Low impact,1800,0.15,2468206,617051,1110691800
+Base case,2300,0.2,3290941,822735,1892290500
+High impact,3000,0.3,4936412,1234103,3702309000
