@@ -53,9 +53,7 @@ All calculations are based on publicly available healthcare data sources.
 
 ## United Kingdom 🇬🇧
 
-The UK budget impact model estimates the potential financial impact of semaglutide treatment among eligible adults with obesity.
-
-Key model outputs:
+The UK budget impact model estimates the potential financial impact of introducing semaglutide treatment among eligible adults with obesity.
 
 | Metric | Result |
 |---|---:|
@@ -73,51 +71,59 @@ Key model outputs:
 
 ---
 
-## United States 🇺🇸
+# United States 🇺🇸
 
-The USA budget impact model evaluates the potential payer impact of semaglutide adoption using publicly available population, obesity, healthcare cost and treatment cost data.
+The US budget impact model evaluates the potential payer impact of semaglutide (Wegovy) adoption among adults with obesity.
 
-Key model outputs:
+The model incorporates:
+
+- US adult population estimates
+- Obesity prevalence estimates
+- Semaglutide treatment costs
+- Healthcare cost offsets
+- Five-year treatment uptake scenarios
+
+
+## USA Model Summary
 
 | Metric | Result |
 |---|---:|
 | Adult population (18+) | 269.8 million |
 | Obesity prevalence | 33.1% |
-| Eligible population | 89.2 million |
-| Annual treatment cost | $17,537 |
-| Year 1 budget impact | $67.5 billion |
-| Year 5 budget impact | $337.3 billion |
+| Adults with obesity | 89.2 million |
+| Annual treatment cost | $17,537 per patient |
+| Year 1 net budget impact | $67.5 billion |
+| Year 5 net budget impact | $337.3 billion |
 
 
-### USA Treated Population Growth
+## USA Visualisations
+
+
+### Treated Population Growth
 
 ![USA Treated Population Growth](reports/usa/figures/usa_treated_population_growth.png)
 
 
-### USA Drug Cost vs Healthcare Savings
+### Drug Cost vs Healthcare Savings
 
 ![USA Cost Savings](reports/usa/figures/usa_cost_vs_savings.png)
 
 
-### USA Net Budget Impact
+### Five-Year Net Budget Impact
 
 ![USA Net Budget Impact](reports/usa/figures/usa_net_budget_impact.png)
 
 
 ### USA Model Summary Dashboard
 
-![USA Model Summary](reports/usa/figures/usa_model_summary_dashboard.png)
-## United Kingdom
+![USA Model Summary Dashboard](reports/usa/figures/usa_model_summary_dashboard.png)
 
-The UK model estimates the financial impact of introducing semaglutide among eligible adults with obesity.
 
-## United States
+---
 
-The US model estimates a substantially larger gross budget impact due to higher drug acquisition costs and population size.
+# Cross-Country Comparison
 
-## Cross-country comparison
-
-The project compares how healthcare system structure, obesity prevalence, treatment eligibility and drug pricing influence budget impact.
+The project compares how healthcare system structure, obesity prevalence, treatment eligibility criteria, and drug pricing influence the budget impact of semaglutide adoption.
 
 ---
 
@@ -153,7 +159,7 @@ The project compares how population size, obesity prevalence, treatment costs, a
 
 # Modelling Approach
 
-Each country model follows a similar framework:
+Each country model follows a consistent budget impact framework:
 
 1. Estimate adult population
 2. Apply obesity prevalence estimates
@@ -163,46 +169,19 @@ Each country model follows a similar framework:
 6. Estimate healthcare cost offsets
 7. Calculate net budget impact
 
----
-
-# Current Results
----
-
-# Visualisations
-
-## Eligible Treatment Population Comparison
-
-![Eligible Population Comparison](reports/comparison/eligible_population_comparison.png)
-
-## Five-Year Budget Impact Comparison
-
-![Budget Impact Comparison](reports/comparison/budget_impact_comparison.png)
-
-## 🇬🇧 United Kingdom
-
-| Metric | Value |
-|--------|------:|
-| Adult population | 55.0 million |
-| Obesity prevalence | 29.9% |
-| Eligible population | 3.29 million |
-| Year 1 net budget impact | £394.9 million |
-| Year 5 net budget impact | £1.97 billion |
-
-## 🇺🇸 United States
-
-| Metric | Value |
-|--------|------:|
-| Adult population | 269.8 million |
-| Obesity prevalence | 33.1% |
-| Adults with obesity | 89.2 million |
-| Annual treatment cost | $17,537 per patient |
-| Year 1 net budget impact | $67.5 billion |
-| Year 5 net budget impact | $337.3 billion |
-
-## General model structure:
-
-```
-Net Budget Impact = Drug Costs − Healthcare Cost Offsets
-```
-
 The same framework is applied across all country models while allowing country-specific assumptions, costs, and epidemiological data.
+
+---
+
+# Limitations
+
+This analysis represents a budget impact scenario model and does not predict actual future expenditure.
+
+Important limitations include:
+
+- Treatment uptake assumptions are hypothetical scenarios
+- Drug prices may vary by payer and negotiation agreements
+- Healthcare savings estimates depend on published evidence assumptions
+- Country models use publicly available aggregate data rather than individual patient-level data
+
+The purpose of this project is to demonstrate transparent HEOR modelling methods and compare potential financial impacts across healthcare systems.
