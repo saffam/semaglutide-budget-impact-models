@@ -1,12 +1,66 @@
-# UK Data Sources
+# United Kingdom Data Sources 🇬🇧
 
-This file records every official source used in the UK Budget Impact Model.
+## Population Data
 
-| Dataset or document | Organisation | Link | Date accessed | Local filename | Status |
-|---|---|---|---|---|---|
-| NICE Technology Appraisal TA875 | NICE | https://www.nice.org.uk/guidance/ta875 | 16 July 2026 | nice_ta875_guidance.pdf | Downloaded |
-| TA875 Resource Impact Report | NICE | https://www.nice.org.uk/guidance/ta875/resources/resource-impact-report-pdf-15431058541 | 16 July 2026 | nice_ta875_resource_impact_report.pdf | Downloaded |
-| NHS England data | NHS England |  |  |  | Not started |
-| Adult population data | ONS |  |  |  | Not started |
-| Wegovy price information | NICE or BNF |  |  |  | Not started |
-| England Population Estimates 2024 | ONS | https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates | 16 July 2026 | ons_population_2024.xlsx | Downloaded |
+Source:
+Office for National Statistics (ONS)
+
+Dataset:
+Mid-year population estimates (MYE2)
+
+Use in model:
+- Adult population aged 18+
+- Population denominator for obesity calculations
+
+
+---
+
+## Obesity Prevalence Data
+
+Source:
+NHS Digital
+
+Dataset:
+Health Survey for England (HSE) 2024
+
+Use in model:
+- Adult obesity prevalence
+- Population eligible for treatment
+
+
+---
+
+## Treatment Cost Data
+
+Source:
+National Institute for Health and Care Excellence (NICE)
+and publicly available NHS medicine pricing information
+
+Use in model:
+- Annual semaglutide treatment cost assumption
+
+
+---
+
+## Healthcare Cost Offset Data
+
+Source:
+Publicly available UK obesity healthcare cost literature
+
+Use in model:
+- Potential healthcare cost savings associated with obesity treatment
+
+
+---
+
+## Modelling Approach
+
+The UK budget impact model estimates:
+
+- Eligible population
+- Treatment uptake scenarios
+- Annual drug expenditure
+- Potential healthcare cost offsets
+- Net budget impact over 5 years
+
+All calculations were performed using Python.

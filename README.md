@@ -18,8 +18,95 @@ The project applies Health Economics and Outcomes Research (HEOR) methods to eva
 
 All analyses use publicly available datasets and published evidence. Every calculation is designed to be traceable and reproducible.
 
-# Key Results
+## Data Sources
 
+Detailed documentation:
+
+- [UK Data Sources](references/uk_sources.md)
+- [USA Data Sources](references/usa_sources.md)
+
+# Methods
+
+Budget impact models were developed using a transparent, reproducible approach.
+
+The analysis includes:
+
+- Population estimation
+- Obesity prevalence estimation
+- Eligible treatment population calculation
+- Semaglutide treatment cost estimation
+- Treatment uptake scenarios
+- Healthcare cost offset estimation
+- Five-year budget impact projection
+
+Tools used:
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+All calculations are based on publicly available healthcare data sources.
+
+# Results
+
+## United Kingdom 🇬🇧
+
+The UK budget impact model estimates the potential financial impact of semaglutide treatment among eligible adults with obesity.
+
+Key model outputs:
+
+| Metric | Result |
+|---|---:|
+| Adult population (18+) | 55.0 million |
+| Obesity prevalence | 29.9% |
+| Eligible population | 3.29 million |
+| Annual treatment cost | £2,500 |
+| Year 1 budget impact | £394.9 million |
+| Year 5 budget impact | £1.97 billion |
+
+### UK Budget Impact Projection
+
+![UK Budget Impact](reports/uk/figures/uk_budget_impact.png)
+
+
+---
+
+## United States 🇺🇸
+
+The USA budget impact model evaluates the potential payer impact of semaglutide adoption using publicly available population, obesity, healthcare cost and treatment cost data.
+
+Key model outputs:
+
+| Metric | Result |
+|---|---:|
+| Adult population (18+) | 269.8 million |
+| Obesity prevalence | 33.1% |
+| Eligible population | 89.2 million |
+| Annual treatment cost | $17,537 |
+| Year 1 budget impact | $67.5 billion |
+| Year 5 budget impact | $337.3 billion |
+
+
+### USA Treated Population Growth
+
+![USA Treated Population Growth](reports/usa/figures/usa_treated_population_growth.png)
+
+
+### USA Drug Cost vs Healthcare Savings
+
+![USA Cost Savings](reports/usa/figures/usa_cost_vs_savings.png)
+
+
+### USA Net Budget Impact
+
+![USA Net Budget Impact](reports/usa/figures/usa_net_budget_impact.png)
+
+
+### USA Model Summary Dashboard
+
+![USA Model Summary](reports/usa/figures/usa_model_summary_dashboard.png)
 ## United Kingdom
 
 The UK model estimates the financial impact of introducing semaglutide among eligible adults with obesity.
