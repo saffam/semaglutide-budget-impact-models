@@ -2,83 +2,58 @@
 
 ## Population
 
-Italy population data are based on publicly available data from the Italian National Institute of Statistics (Istat).
+Italy population data are based on the Italian National Institute of Statistics (Istat).
+
+The 2024 resident population was 58,943,464.
+
+The model uses an adult population aged 18+ of 50,327,351, derived from the population data used in the project.
 
 Source:
-Istat — Population and demographic statistics
-
-https://www.istat.it/
-
-The model uses the adult population aged 18 years and over as the population base for the obesity estimate.
-
----
+- Istat – Censimento e dinamica della popolazione, Anno 2024
+- https://www.istat.it/
 
 ## Obesity prevalence
 
-Adult obesity prevalence for Italy is based on Istat health statistics.
-
-The model uses an adult obesity prevalence of 11.8%.
+The Italy model uses an adult obesity prevalence of 11.8% for 2024.
 
 Source:
-Istat — Health and healthcare statistics
-
-https://www.istat.it/
-
----
+- Istat – Health and healthcare risk factors statistics
+- https://www.istat.it/
 
 ## Semaglutide treatment cost
 
-The annual semaglutide treatment cost is based on publicly available Italian pharmaceutical pricing information.
+The base-case annual treatment cost is €3,000 per patient.
 
-The model converts the relevant treatment cost into an annual cost per treated patient.
+This is treated as a modelling assumption for the portfolio analysis rather than as an established Italian NHS reimbursement tariff.
+
+The assumption is particularly important because AIFA currently identifies Wegovy (semaglutide) for weight management as a Class C medicine, with the cost borne by the patient rather than reimbursed by the Italian National Health Service.
 
 Source:
-Italian Medicines Agency (AIFA)
-
-https://www.aifa.gov.it/
-
----
+- AIFA – Guida: Nuovi farmaci per il diabete e l'obesità
+- https://www.aifa.gov.it/
 
 ## Healthcare cost offset
 
-No Italy-specific healthcare cost offset is currently applied in the base-case model.
+No Italy-specific healthcare cost offset is included in the base case.
 
-Healthcare offsets will only be incorporated if a suitable Italy-specific published real-world or health-economic estimate is identified.
+Healthcare savings are therefore set to €0 per treated patient.
 
-Therefore:
-
-Healthcare cost offset = €0 in the current base case.
-
----
+This avoids transferring healthcare cost-offset estimates from another country into the Italian healthcare system without an Italy-specific evidence base.
 
 ## Uptake assumptions
 
-The model applies an illustrative five-year uptake scenario:
+The model applies the following illustrative uptake scenario:
 
-| Year | Uptake |
-|------|--------|
-| 1 | 5% |
-| 2 | 10% |
-| 3 | 15% |
-| 4 | 20% |
-| 5 | 25% |
+- Year 1: 5%
+- Year 2: 10%
+- Year 3: 15%
+- Year 4: 20%
+- Year 5: 25%
 
-These uptake values are modelling assumptions rather than observed Italian utilization data.
-
----
+These uptake values are modelling assumptions and are not observed Italian market uptake data.
 
 ## Methodological note
 
-The Italy budget impact model estimates the financial consequences of introducing semaglutide for adults with obesity over a five-year period.
+The Italy model is designed as a transparent portfolio-level budget impact scenario using publicly available population and epidemiological evidence.
 
-The model calculates:
-
-1. Adult population
-2. Adults with obesity
-3. Eligible population
-4. Treated population under different uptake assumptions
-5. Annual drug expenditure
-6. Healthcare cost offsets where Italy-specific evidence is available
-7. Net budget impact
-
-Only publicly available information is used. Where an Italy-specific parameter is not available, the parameter is explicitly identified as an assumption rather than presented as observed real-world data.
+Where Italy-specific economic evidence was not available or could not be justified, assumptions are explicitly identified rather than replaced with estimates from another healthcare system.
