@@ -1,0 +1,4 @@
+Country,Adult Population (18+),Obesity Prevalence,Eligible Population,Annual Treatment Cost,Currency,Year 1 Uptake,Year 5 Uptake,Year 1 Budget Impact,Year 5 Budget Impact,Obesity Prevalence (%),Year 1 Uptake (%),Year 5 Uptake (%)
+United Kingdom,55022253,0.2990555,3290941,2500.0,GBP,0.05,0.25,394912800.0,1974564000.0,29.905549999999998,5.0,25.0
+United States,269763500,0.3306,89190830,17537.26,USD,0.05,0.25,67469563908.79,337347819543.94,33.06,5.0,25.0
+Italy,50327351,0.118,5938627,3000.0,EUR,0.05,0.25,890793900.0,4453969500.0,11.799999999999999,5.0,25.0
